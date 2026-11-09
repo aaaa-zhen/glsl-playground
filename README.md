@@ -27,8 +27,9 @@ Each demo is a single self-contained HTML file — no build, no dependencies, ju
 | **[Siri Wave](https://aaaa-zhen.github.io/glsl-playground/siri-wave.html)**<br><sub>[`siri-wave.html`](siri-wave.html)</sub> | 语音声波与流体圆点两种形态：光谱色散、Lorentzian 发光线、metaball + smin 平滑融合、欠阻尼弹簧动画 | 点击切换形态 |
 | **[Liquid Glass](https://aaaa-zhen.github.io/glsl-playground/liquid-glass.html)**<br><sub>[`liquid-glass.html`](liquid-glass.html)</sub> | 液态玻璃材质：透镜折射、色差、backdrop 模糊、黑顶镜面、赤道亮线 | 上传自己的截图 → 玻璃实时折射它；全部参数可调 |
 | **[Metaball → Search](https://aaaa-zhen.github.io/glsl-playground/metaball-search.html)**<br><sub>[`metaball-search.html`](metaball-search.html)</sub> | 从屏幕边缘拖出液滴唤起搜索框：梯度感知 smooth-min（液滴渗出时起液颈）、SDF 驱动玻璃折射、CPU 弹簧驱动「圆 → 胶囊」连续形变 | 从顶部黑边**往下拖**，松手凝聚成黑玻璃搜索框 |
+| **[Siri EdgeLight](https://aaaa-zhen.github.io/glsl-playground/siri-edge-light.html)**<br><sub>[`siri-edge-light.html`](siri-edge-light.html)</sub> | iOS 26 Siri 唤醒边缘光：抛物线角点 squircle SDF、3D 噪声体驱动的火焰光带、11 光源颜色场、冲击波网格形变 + 色散，各元素按状态机独立弹簧过渡 | 侧键 / 底部唤醒；可驻留 initial / Hint / final 任一状态观察，全部参数可调 |
 
-> 三个 demo 也可以从首页 [aaaa-zhen.github.io/glsl-playground](https://aaaa-zhen.github.io/glsl-playground/) 统一进入。
+> 四个 demo 也可以从首页 [aaaa-zhen.github.io/glsl-playground](https://aaaa-zhen.github.io/glsl-playground/) 统一进入。
 
 ## 技术点 / Techniques
 
